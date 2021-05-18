@@ -9,7 +9,7 @@ class App extends Component {
     users: [],
     loading: false
   }
-  git remote set-url origin https://github.com/xiaolu-ignite/react-github-finder.git
+  
   async componentDidMount() {
     this.setState({ loading: true });
 
