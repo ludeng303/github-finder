@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const RepoItem = ({ repo }) => {
-  console.log(repo);
   return (
     <div className="card">
       <h3>
