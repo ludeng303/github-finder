@@ -1,3 +1,4 @@
+import Repos from '../../components/repos/Repos';
 import {
   SEARCH_USERS,
   SET_LOADING,
@@ -24,6 +25,12 @@ export default (state, action) => {
       return {
         ...state,
         users: [],
+        loading: false
+      };
+    case GET_REPOS: 
+      return {
+        ...state,
+        repos: action.payload,
         loading: false
       };
     case SET_LOADING:
